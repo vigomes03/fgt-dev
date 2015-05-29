@@ -1,3 +1,6 @@
-:) 
-<br>
-JAVA WINS
+<?php
+
+	phpinfo();
+	
+
+?>
