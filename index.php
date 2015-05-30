@@ -14,4 +14,13 @@
 		echo "NO GO";
 	}
 
+
+	$sql = "SELECT [ID],[name] FROM [vehicle].[brand] ";
+
+	$st  = sqlsrv_query($conn, $sql);
+
+	while( $row = sqlsrv_fetch_array( $st, SQLSRV_FETCH_ASSOC ) ){
+		echo $row;
+	}
+
 ?>
